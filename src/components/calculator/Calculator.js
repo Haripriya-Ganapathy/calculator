@@ -42,7 +42,7 @@ export default function Calculator() {
         displayValue.style.overflow = "hidden";
         return setCalc(calc.toString());
       } else if (calc.length === 11 && operations.includes(value)) {
-        console.log("hi"); // Placeholder code (not explained)
+        console.log("change message - hello "); // Placeholder code (not explained)
       } else {
         console.error(); // Placeholder code (not explained)
       }
